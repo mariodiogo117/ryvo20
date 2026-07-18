@@ -230,11 +230,11 @@ em { color: var(--blue); font-style: normal; }
 .sport-card > span { color: rgba(255,255,255,.62); font-family: var(--font-title); font-size: .72rem; letter-spacing: .15em; }
 .sport-card p { margin-bottom: 7px; color: var(--blue); font-size: .69rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; }
 .sport-card h3 { margin: 0; font-size: clamp(1.45rem, 2.3vw, 2rem); text-transform: uppercase; }
-.sport-football { background-position: 50% center; }
-.sport-padel { background-position: 68% center; }
-.sport-running { background-position: 32% center; }
-.sport-cycling { background-position: 90% center; }
-.sport-other { background-position: 15% center; }
+.sport-football { background-image: linear-gradient(0deg, rgba(2,4,6,.98) 0%, rgba(2,4,6,.15) 68%, rgba(2,4,6,.35) 100%), url("../assets/optimized/sport-football.webp"); background-position: center; }
+.sport-padel { background-image: linear-gradient(0deg, rgba(2,4,6,.98) 0%, rgba(2,4,6,.15) 68%, rgba(2,4,6,.35) 100%), url("../assets/optimized/sport-padel.webp"); background-position: center; }
+.sport-running { background-image: linear-gradient(0deg, rgba(2,4,6,.98) 0%, rgba(2,4,6,.15) 68%, rgba(2,4,6,.35) 100%), url("../assets/optimized/sport-running.webp"); background-position: center; }
+.sport-cycling { background-image: linear-gradient(0deg, rgba(2,4,6,.98) 0%, rgba(2,4,6,.15) 68%, rgba(2,4,6,.35) 100%), url("../assets/optimized/sport-cycling.webp"); background-position: center; }
+.sport-other { background-image: linear-gradient(0deg, rgba(2,4,6,.98) 0%, rgba(2,4,6,.15) 68%, rgba(2,4,6,.35) 100%), url("../assets/optimized/sport-other.webp"); background-position: center; }
 
 .events { min-height: 720px; display: flex; align-items: center; overflow: hidden; padding-block: 110px; }
 .events-image-wrap { position: absolute; inset: 0; }
