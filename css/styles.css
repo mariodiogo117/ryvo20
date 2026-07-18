@@ -218,7 +218,7 @@ em { color: var(--blue); font-style: normal; }
   overflow: hidden;
   isolation: isolate;
   border: 1px solid var(--line);
-  background-image: linear-gradient(0deg, rgba(2,4,6,.98) 0%, rgba(2,4,6,.15) 68%, rgba(2,4,6,.35) 100%), url("../assets/multisport/hero-multisport.webp");
+  background-image: linear-gradient(0deg, rgba(2,4,6,.98) 0%, rgba(2,4,6,.15) 68%, rgba(2,4,6,.35) 100%), url("../assets/optimized/ryvo-multisport-hero.webp");
   background-repeat: no-repeat;
   background-size: auto 100%;
   transition: transform .3s ease, border-color .3s ease, background-size .5s ease;
@@ -230,11 +230,11 @@ em { color: var(--blue); font-style: normal; }
 .sport-card > span { color: rgba(255,255,255,.62); font-family: var(--font-title); font-size: .72rem; letter-spacing: .15em; }
 .sport-card p { margin-bottom: 7px; color: var(--blue); font-size: .69rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; }
 .sport-card h3 { margin: 0; font-size: clamp(1.45rem, 2.3vw, 2rem); text-transform: uppercase; }
-.sport-football { background-position: 33% center; }
-.sport-padel { background-position: 47% center; }
-.sport-basket { background-position: 62% center; }
-.sport-volley { background-position: 77% 42%; }
-.sport-running { background-position: 96% 46%; }
+.sport-football { background-position: 50% center; }
+.sport-padel { background-position: 68% center; }
+.sport-running { background-position: 32% center; }
+.sport-cycling { background-position: 90% center; }
+.sport-other { background-position: 15% center; }
 
 .events { min-height: 720px; display: flex; align-items: center; overflow: hidden; padding-block: 110px; }
 .events-image-wrap { position: absolute; inset: 0; }
